@@ -168,7 +168,6 @@ export const PokemonProvider = ({ children }: IPokemonContextProps) => {
     ) => {
     const allChosenPokes: IPokemonResponse[] | undefined = storedPokemon?.allPokemons.filter(e => {
       let counter = 0;
-      let chosenOnes = [];
   
       const checkIfGenderExists = pokemonsChosenByGender.find(Element => e.name === Element.name);
   

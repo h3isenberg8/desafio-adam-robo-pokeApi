@@ -7,7 +7,7 @@ type CardComponentProps = {
   setCardPokemon: React.Dispatch<React.SetStateAction<string>>;
 };
 
-export const CardComponent = ({ cardPokemon, setCardPokemon }: CardComponentProps) => {
+export const CardComponent = ({ cardPokemon }: CardComponentProps) => {
   const [pokeInfos, setPokeInfos] = useState<any>();
 
   useEffect(() => {
