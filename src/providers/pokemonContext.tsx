@@ -192,7 +192,7 @@ export const PokemonProvider = ({ children }: IPokemonContextProps) => {
       }
     });
     
-    const test = {allPokemons: allChosenPokes}
+    const test:any = {allPokemons: allChosenPokes}
 
     setSelectedPokemons(test);
   };
@@ -200,7 +200,15 @@ export const PokemonProvider = ({ children }: IPokemonContextProps) => {
 
 
   return (
-    <PokemonContext.Provider value={{storedPokemon, setStoredPokemon, selectedPokemons, setSelectedPokemons, selectedOptions, setSelectedOptions, manageSelectedOptions}}>
+    <PokemonContext.Provider value={{
+      storedPokemon,
+      setStoredPokemon,
+      selectedPokemons,
+      setSelectedPokemons,
+      selectedOptions,
+      setSelectedOptions,
+      manageSelectedOptions
+      }}>
       {children}
     </PokemonContext.Provider>
   );
