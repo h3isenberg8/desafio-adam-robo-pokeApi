@@ -8,3 +8,5 @@
 3# abra o link que aparecerá no seu terminal
 
 ![Captura de tela 2023-05-25 111710](https://github.com/h3isenberg8/desafio-adam-robo-pokeApi/assets/114528647/307888ff-59dd-47f7-b4c8-9ec35d99e517)
+
+para ver rodando em live acesse https://desafio-adam-robo.vercel.app/
